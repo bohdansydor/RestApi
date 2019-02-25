@@ -1,0 +1,41 @@
+hash: ee088b6b966c6ea2366c6333f912472982bb2c0d8dbc96da0bb4bbe1570ed609
+updated: 2019-02-25T19:43:14.138054533+02:00
+imports:
+- name: github.com/astaxie/beego
+  version: bb6ca6b100f885b0b04ce44848b597a19333d2f1
+  subpackages:
+  - config
+  - context
+  - context/param
+  - grace
+  - logs
+  - session
+  - toolbox
+  - utils
+- name: github.com/gorilla/mux
+  version: 8559a4f775fc329165fe32bd4c2543de8ada8fce
+- name: golang.org/x/crypto
+  version: 7f87c0fbb88b590338857bcb720678c2583d4dea
+  subpackages:
+  - acme
+  - acme/autocert
+- name: gopkg.in/yaml.v2
+  version: 51d6538a90f86fe93ac480b35f37b2be17fef232
+testImports:
+- name: github.com/gopherjs/gopherjs
+  version: d547d1d9531ed93dbdebcbff7f83e7c876a1e0ee
+  subpackages:
+  - js
+- name: github.com/jtolds/gls
+  version: b4936e06046bbecbb94cae9c18127ebe510a2cb9
+- name: github.com/smartystreets/assertions
+  version: 980c5ac6f3acb6ce1cfe13160e49188807174fbe
+  subpackages:
+  - internal/go-render/render
+  - internal/oglematchers
+- name: github.com/smartystreets/goconvey
+  version: a17d461953aae4fb1a1d7f33653151da5f80392f
+  subpackages:
+  - convey
+  - convey/gotest
+  - convey/reporting
